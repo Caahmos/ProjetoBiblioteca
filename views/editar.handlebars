@@ -1,0 +1,20 @@
+<div class="container text-center">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            {{#each livros}}
+             <h1 class="m-5">Edite o seu livro</h1>
+
+            <form action="/books/atualizarLivro/{{ this.id }}" name="livros" method="post">
+                <label class="my-3" for="title">Título do Livro</label>
+                <input type="text" class="form-control" value="{{ this.title }}" id="title" name="title">
+                <label class="my-3" for="pages">Qtde de Páginas do Livro</label>
+                <input type="number" class="form-control" value="{{ this.pages }}" id="pages" name="pages">
+                <button class="btn btn-success form-control my-5">Editar</button>
+            </form>
+
+            {{/each}}
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
