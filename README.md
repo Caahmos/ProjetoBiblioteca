@@ -28,7 +28,7 @@ Bem-vindo ao Projeto Biblioteca, uma aplicação desenvolvida para aprimorar hab
 
 ## Como Executar o Projeto
 
-1. Clone o repositório: `https://github.com/AlexMoralesDEV/ProjetoBiblioteca.git`
+1. Clone o repositório: `https://github.com/Caahmos/ProjetoBiblioteca.git`
 2. Acesse o diretório do projeto: `cd ProjetoBiblioteca`
 3. Instale as dependências: `npm install`
 4. Inicie o servidor usando Nodemon: `npm start`
